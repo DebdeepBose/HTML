@@ -1,0 +1,112 @@
+<title>OpenLinks</title>
+<style>
+    body {
+        font-family: Didot, serif;
+        background: linear-gradient(to right, rgb(255, 32, 203), rgb(45, 255, 255));
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .video {
+        font-size: 50px;
+        font-weight: bolder;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        margin-bottom: -10px;
+    }
+
+    .Red {
+        font-size: 40px;
+        font-weight: bold;
+        color: black;
+        text-align: center;
+    }
+
+    .button-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .Whap,
+    .Fb,
+    .Insta,
+    .Tele {
+        font-size: 30px;
+        width: 200px;
+        border: none;
+        border-radius: 1000px;
+        padding: 20px 20px;
+        cursor: pointer;
+        transition: background-color 0.2s, color 0.2s;
+        margin-bottom: 10px;
+        margin-top: 20px;
+
+    }
+
+    .Whap {
+        background-color: #000000;
+        color: rgb(0, 255, 38);
+    }
+
+    .Whap:hover {
+        background-color: rgba(0, 255, 38, 0.797);
+        color: #000000;
+    }
+
+    .Fb {
+        background-color: #000000;
+        color: rgb(52, 26, 245);
+    }
+
+    .Fb:hover {
+        background-color: rgb(52, 26, 245);
+        color: #000000;
+    }
+
+    .Insta {
+        background-color: #000000;
+        color: rgb(231, 32, 66);
+    }
+
+    .Insta:hover {
+        background-color: rgb(231, 32, 66);
+        color: #000000;
+    }
+
+    .Tele {
+        background-color: #000000;
+        color: rgb(19, 136, 226);
+    }
+
+    .Tele:hover {
+        background-color: rgb(19, 136, 226);
+        color: #000000;
+    }
+</style>
+
+<body>
+    <h1 class="video">
+        OpenLinks
+    </h1>
+    <h2 class="Red">
+        <u>Click Below To Get Re-Directed</u>
+    </h2>
+    <div class="button-container">
+        <button class="Whap" onclick=window.location.href="https://www.whatsapp.com/">
+            Whatsapp
+        </button>
+        <button class="Fb" onclick=window.location.href="https://www.facebook.com/">
+            Facebook
+        </button>
+        <button class="Insta" onclick=window.location.href="https://www.instagram.com/">
+            Instagram
+        </button>
+        <button class="Tele" onclick=window.location.href="https://telegram.org/">
+            Telegram
+        </button>
+    </div>
+</body>

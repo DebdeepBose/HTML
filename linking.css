@@ -1,0 +1,30 @@
+.b {
+    background: linear-gradient(to right, rgb(255, 111, 137), rgb(126, 227, 255));
+    flex-direction: column;
+    display: flex;
+}
+
+.h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    text-decoration: underline;
+}
+
+.p1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    margin-top: -20px;
+    color: rgba(0, 0, 0, 0.668);
+}
+
+.p2 {
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}

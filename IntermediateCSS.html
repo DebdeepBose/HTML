@@ -1,0 +1,81 @@
+<!--Opacity for transparency, box-shadow for shadow effect ,
+    rgb vs rgba(the a is basically opacity)-->
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(to right, #f1615edb, #e8f180, #6cf094db);
+    }
+
+    .Tocf {
+        background-color: black;
+        color: #e21c1c;
+        height: 50px;
+        width: 300px;
+        border-radius: 100px;
+        font-size: large;
+        font-weight: bold;
+        font-style: italic;
+        cursor: pointer;
+        margin-right: 50px;
+        transition: opacity 0.20s;
+        transition: background-color 0.3s, color 0.3s;
+        box-shadow: 1px 0px 200px rgba(237, 7, 7, 0.918);
+    }
+
+    .Tocf:hover {
+        background-color: #e21c1c;
+        color: black;
+        opacity: 0.9;
+    }
+
+    .ToLc {
+        background-color: black;
+        color: #edd016;
+        height: 50px;
+        width: 300px;
+        border-radius: 100px;
+        font-size: large;
+        font-weight: bold;
+        font-style: italic;
+        cursor: pointer;
+        margin-right: 50px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    .ToLc:hover {
+        background-color: #edd016;
+        color: black;
+    }
+
+    .ToGfg {
+        background-color: black;
+        color: #00ff73d1;
+        height: 50px;
+        width: 300px;
+        border-radius: 100px;
+        font-size: large;
+        font-weight: bold;
+        font-style: italic;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    .ToGfg:hover {
+        background-color: #00ff73d1;
+        color: black;
+    }
+</style>
+
+<body>
+    <button class="Tocf" onclick=window.location.href='https://codeforces.com/'>
+        Take Me To Codeforces
+    </button>
+    <button class="ToLc" onclick=window.location.href='https://leetcode.com/'>
+        Take Me To LeetCode
+    </button>
+    <button class="ToGfg" onclick=window.location.href='https://www.geeksforgeeks.org/'>
+        Take Me To GeeksForGeeks
+    </button>
+</body>
