@@ -1,0 +1,26 @@
+
+ol { 
+    margin-left: -40px; 
+    margin-top: -20px; 
+    list-style-position: inside;
+}
+
+.B {
+    color: black;
+}
+
+#R {
+    color: red;
+}
+
+#G {
+    color: green;
+}
+
+#BL {
+    color: blue;
+}
+
+*{
+    text-align: center;
+}

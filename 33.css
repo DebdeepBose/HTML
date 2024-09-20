@@ -1,0 +1,8 @@
+p[draggable] {
+    color: rebeccapurple;
+    font-weight: bold; /* Makes the paragraph bold */
+}
+
+h2[draggable] {
+    color: darkgoldenrod;
+}
