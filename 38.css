@@ -1,0 +1,25 @@
+*{
+    text-align: center;
+}
+html{
+    background-color: azure;
+}
+h2{
+    color: red;
+}
+#fp{
+    color: aquamarine;
+    font-weight: bold;
+}
+#sp{
+    color: blueviolet;
+    font-size: xx-large;
+    font-style: italic;
+}
+.tp{
+    font-family: 'Lucida Sans', 'sans-serif';
+    font-style: italic;
+    font-variant: small-caps;
+    font-size: 2rem;
+    color: cornflowerblue;
+}
