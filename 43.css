@@ -1,0 +1,14 @@
+.one{
+    width: 200px;
+    color: rgb(90, 155, 211);
+    background-color: rgb(247, 146, 146);
+    position: relative;
+    top: 50px;
+    left: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+h1{
+    padding-right: 50px;
+}

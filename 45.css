@@ -1,0 +1,27 @@
+.red {
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+    background-color: red;
+    color: white;
+}
+
+.blue {
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+    background-color: blue;
+    color: white;
+}
+
+.green {
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+    background-color: green;
+    color: white;
+}
+
+p {
+    font-size: 20px;
+}

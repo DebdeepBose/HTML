@@ -1,0 +1,35 @@
+body {
+    background-color: white;
+    margin: 0; 
+}
+
+.yt {
+    padding-left: 10px;
+    color: yellow;
+    margin-bottom: 3px; 
+    margin-top: 0; 
+}
+
+.wt {
+    padding-left: 10px;
+    color: white;
+    font-size: large;
+}
+
+.sb {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: red;
+    width: 300px;
+    margin: 0 10px; 
+}
+
+.main {
+    background-color: blue; 
+    width: 320px;
+    padding: 10px;
+    margin: 10px; 
+    border: 10px solid purple; 
+    padding-left: 2px;
+    padding-right: 2px;
+}
