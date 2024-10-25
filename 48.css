@@ -1,0 +1,26 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 160px 160px 160px 160px;
+    gap: 15px;
+}
+
+.odd {
+    background-color: pink;
+}
+
+.even{
+    background-color: aquamarine;
+}
+details {
+    margin: 10px 0;
+}
+
+summary {
+    cursor: pointer; /* Change cursor to indicate it's clickable */
+    font-weight: bold;
+}
+
+summary:hover {
+    text-decoration: underline; /* Add an underline on hover */
+}
